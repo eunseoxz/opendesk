@@ -50,4 +50,5 @@ The owner can only `pause` and `unpause` new tickets. Treasury, operator, and th
 | Live URL | `https://opendesk-dc5.pages.dev` |
 | Repo | `https://github.com/eunseoxz/opendesk` |
 | Contract | `0x92D3290E4bB04E32D321d58A5bB1a77E049F2e93` · https://bscscan.com/address/0x92D3290E4bB04E32D321d58A5bB1a77E049F2e93 |
-| Deploy gas (measured) | `deploy gasUsed 1,124,223 (tx 0xc30e2bfe…c0be, BSC mainnet)` |
+| Deploy gas (measured) | 1,124,223 |
+| Deploy tx | [0xc30e2bfe188ebf2330a44325f18822d01a92bdb1f514a2800c3682c5e426c0be](https://bscscan.com/tx/0xc30e2bfe188ebf2330a44325f18822d01a92bdb1f514a2800c3682c5e426c0be) |

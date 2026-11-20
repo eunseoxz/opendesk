@@ -16,9 +16,8 @@ contract OpenDeskMainnetForkTest is Test {
     address internal constant REGISTRY = 0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F;
     uint256 internal constant MIN_FEE = 0.001 ether;
 
-    // Known public handles used only as a fallback if ownerOfHandle reverts.
+    // Known public handle used only as a fallback if ownerOfHandle reverts.
     address internal constant ZAP_HOLDER = 0x5B95b1fc7C092B75D8A2220c770CC9cFe10f6723;
-    address internal constant YIZHUO_HOLDER = 0x26647463B44f602e91b92308A096BcCEcA7C7222;
 
     OpenDesk internal desk;
     address internal treasury;
@@ -93,7 +92,7 @@ contract OpenDeskMainnetForkTest is Test {
 
     function _findHolder() internal view returns (address) {
         IAgentIdLookup lookup = IAgentIdLookup(REGISTRY);
-        string[4] memory handles = [string("zap"), "yizhuo", "alice", "demo"];
+        string[3] memory handles = [string("zap"), "alice", "demo"];
         for (uint256 i = 0; i < handles.length; i++) {
             try lookup.ownerOfHandle(handles[i]) returns (address a) {
                 if (a != address(0) && IAgentIdRegistry(REGISTRY).balanceOf(a) > 0) {
@@ -102,7 +101,6 @@ contract OpenDeskMainnetForkTest is Test {
             } catch {}
         }
         if (IAgentIdRegistry(REGISTRY).balanceOf(ZAP_HOLDER) > 0) return ZAP_HOLDER;
-        if (IAgentIdRegistry(REGISTRY).balanceOf(YIZHUO_HOLDER) > 0) return YIZHUO_HOLDER;
         return address(0);
     }
 }
