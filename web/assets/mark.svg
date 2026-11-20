@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 48" role="img" aria-label="OpenDesk">
+  <g fill="none" fill-rule="evenodd">
+    <path d="M8 10h36c2.2 0 4 1.8 4 4v6.5c-2.5.4-4.4 2.6-4.4 5.2S45.5 30.9 48 31.3V38c0 2.2-1.8 4-4 4H8c-2.2 0-4-1.8-4-4V31.3c2.5-.4 4.4-2.6 4.4-5.2S6.5 20.9 4 20.5V14c0-2.2 1.8-4 4-4z" stroke="#3db8a8" stroke-width="2" fill="#1a222c"/>
+    <path d="M18 14v24M22 22h18M22 28h12" stroke="#3db8a8" stroke-width="1.6" stroke-linecap="round"/>
+    <line x1="4" y1="44" x2="52" y2="44" stroke="#3db8a8" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+  </g>
+  <text x="64" y="32" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="600" fill="#e8eef4" letter-spacing="-0.02em">OpenDesk</text>
+</svg>

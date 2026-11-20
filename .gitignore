@@ -1,0 +1,11 @@
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+contracts/lib/
+contracts/.env
+.env
+.env.*
+!.env.example
+node_modules/
+.DS_Store
+*.bak*

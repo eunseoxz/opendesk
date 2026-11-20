@@ -1,0 +1,21 @@
+{
+  "network": "bsc-mainnet",
+  "chainId": 56,
+  "status": "DEPLOYED",
+  "deployer": "0xfe3b7944F965a6779b75b28D3A5943945FbABC26",
+  "openDesk": "0x92D3290E4bB04E32D321d58A5bB1a77E049F2e93",
+  "registry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+  "treasury": "0xfe3b7944F965a6779b75b28D3A5943945FbABC26",
+  "operator": "0xfe3b7944F965a6779b75b28D3A5943945FbABC26",
+  "minFeeWei": "1000000000000000",
+  "deployTx": "0xc30e2bfe188ebf2330a44325f18822d01a92bdb1f514a2800c3682c5e426c0be",
+  "deployBlock": 134568493,
+  "explorerBase": "https://bscscan.com",
+  "explorerContract": "https://bscscan.com/address/0x92D3290E4bB04E32D321d58A5bB1a77E049F2e93",
+  "explorerTx": "https://bscscan.com/tx/0xc30e2bfe188ebf2330a44325f18822d01a92bdb1f514a2800c3682c5e426c0be",
+  "rpcUrl": "https://bsc-dataseed.binance.org",
+  "pagesUrl": "https://opendesk-dc5.pages.dev",
+  "pagesPreview": "https://ee9ea95a.opendesk-dc5.pages.dev",
+  "sourcify": "https://repo.sourcify.dev/56/0x92D3290E4bB04E32D321d58A5bB1a77E049F2e93/",
+  "note": "Public deploy record. No private keys in this repository."
+}
